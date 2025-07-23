@@ -1,33 +1,25 @@
 id: api
 definesType: true
+scopes:
 
-assets:
-    properties:
-        - action: set
-          property: image
-          resolvePath: true
-          input:
-                name: "cover" 
-                ext: "*"
-
-queries: 
-    posts:
-        contentType: post
-        scope: detail
-        orderBy:
-            - key: publication
-              direction: desc
+queries:
+  guides:
+    contentType: guide
+    scope: detail
+    orderBy:
+      - key: order
+        direction: asc
 
 contentTypes:
-    include:
-        - api
+  include:
+    - api
 
-engine: 
-    id: json
-    options:
-        keyPath: "context.posts"
+engine:
+  id: json
+  options:
+    keyPath: 'context.guides'
 
 output:
-    path: "api"
-    file: posts
-    ext: json
+  path: 'api'
+  file: content
+  ext: json

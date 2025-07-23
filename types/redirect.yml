@@ -1,11 +1,10 @@
 id: redirect
 
 properties:
-    to: 
-        type: string
-        required: true
-    code:
-        type: int
-        required: false
-        defaultValue: 301
-
+  to:
+    type: string
+    required: true
+  code:
+    type: int
+    required: false
+    defaultValue: 301

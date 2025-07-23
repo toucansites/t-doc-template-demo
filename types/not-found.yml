@@ -1,8 +1,8 @@
 id: not-found
 paths:
-    - 404
+  - 404
 
 properties:
-    title:
-        type: string
-        required: true
+  title:
+    type: string
+    required: true
