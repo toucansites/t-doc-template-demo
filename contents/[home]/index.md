@@ -1,5 +1,5 @@
 ---
-title: Welcome to T-Doc template
+title: Welcome to T-Doc Template
 description: Learn how to use T-Doc, the ultimate documentation generator for your projects.
 views:
     html: pages.home

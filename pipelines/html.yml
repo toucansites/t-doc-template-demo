@@ -24,13 +24,12 @@ assets:
         ext: '*'
 
 queries:
-    categories:
-        contentType: category
-        scope: detail
-        orderBy:
-          - key: order
-            direction: asc
-        # limit: 2
+  categories:
+    contentType: category
+    scope: detail
+    orderBy:
+      - key: order
+        direction: asc
 
 dataTypes:
     date:
