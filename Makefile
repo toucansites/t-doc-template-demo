@@ -3,10 +3,10 @@ SHELL=/bin/bash
 # brew install optipng jpegoptim
 
 dev:
-	toucan generate .
+	toucan generate --target dev
 
 dist:
-	toucan generate . --target live
+	toucan generate --target live
 
 diff:
 	diff --color=always -r dist-prev dist --exclude=api || true

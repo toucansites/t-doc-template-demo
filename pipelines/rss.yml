@@ -2,18 +2,24 @@ id: rss
 definesType: true
 
 queries:
-    posts:
-        contentType: post
-        scope: list
-        orderBy:
-            - key: lastUpdate
-              direction: desc
+  categories:
+    contentType: category
+    scope: list
+    orderBy:
+      - key: title
+        direction: asc
+  posts:
+    contentType: post
+    scope: list
+    orderBy:
+      - key: title
+        direction: asc
 
-contentTypes: 
-    include:
-        - rss
-    lastUpdate:
-        - post
+contentTypes:
+  include:
+    - rss
+  lastUpdate:
+    - post
 
 dataTypes:
     date: 
@@ -21,14 +27,14 @@ dataTypes:
             rss:
                 format: "EEE, dd MMM yyyy HH:mm:ss Z"
 
-engine: 
-    id: mustache
-    options:
-        contentTypes: 
-            rss:
-                view: "rss"
+engine:
+  id: mustache
+  options:
+    contentTypes:
+      rss:
+        view: 'rss'
 
 output:
-    path: ""
-    file: rss
-    ext: xml
+  path: ''
+  file: rss
+  ext: xml

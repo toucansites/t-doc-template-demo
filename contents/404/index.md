@@ -4,9 +4,18 @@ title: Not found
 description: Page not found
 ---
 
-Oops! Looks like you’re lost.
+# 404 Not found
 
-We couldn’t find the page you were looking for. It might have been moved, deleted, or simply doesn’t exist. In the meantime, head back to the homepage.
+This page does not exists.
 
-This content is stored inside the **contents/404/index.md** file.  
-To modify this content, update this file.
+We’ve searched through all the docs, but this page seems to be missing.
+Maybe it’s still in draft mode, or it got lost in the footnotes.
+
+### 🚀 How to Customize
+
+This page is just a **template**, so feel free to modify or replace it to match your project's identity.
+
+- **To edit this page**, update the content in:  
+  📂 `/contents/404/index.md`
+- **To customize the template itself**, modify:  
+  📂 `/templates/default/views/pages/404.mustache`
