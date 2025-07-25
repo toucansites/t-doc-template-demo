@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 '';
 
               return `
-                <div class="result-item" data-slug="${item.slug.value}">
+                <div class="result-item" data-slug="${item.slug}">
                     <h1>${item.title || item.slug}</h1>
                     <p>${snippet}</p>
                 </div>
