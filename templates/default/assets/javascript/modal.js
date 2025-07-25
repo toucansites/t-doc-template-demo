@@ -105,7 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('click', function (e) {
       const target = e.target.closest('.result-item');
       if (target && target.dataset.slug) {
-        window.location.href = '/' + target.dataset.slug + '/';
+        const baseUrl = window.__BASE_URL__;
+        window.location.href = baseUrl + '/' + target.dataset.slug + '/';
       }
     });
 
