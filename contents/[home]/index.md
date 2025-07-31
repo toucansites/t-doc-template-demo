@@ -39,3 +39,7 @@ This page is just a **template**, so feel free to modify or replace it to match 
   📂 `/contents/index.md`
 - **To customize the template itself**, modify:  
   📂 `/templates/default/views/pages/home.mustache`
+
+## 🙏 Consider supporting us with a ⭐️
+
+Consider giving us a **star on Github**, it means a lot for us, our company and our Toucan product. Thank you! [Toucan Github](https://github.com/toucansites/toucan/)
