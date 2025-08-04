@@ -10,7 +10,7 @@ views:
 Need support or have a suggestion?
 
 - Email us at <support@binarybirds.com>
-- Join to the [Toucan Discord Channel](https://discord.gg/jarZNtGppQ)
+- Consider giving us a star on Github - [Toucan Github](https://github.com/toucansites/toucan/)
 
 Feel free to drop us a message, we'll try to get back to you as soon as possible.
 
