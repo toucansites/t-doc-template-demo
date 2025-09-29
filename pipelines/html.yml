@@ -30,6 +30,13 @@ queries:
     orderBy:
       - key: order
         direction: asc
+  features:
+    contentType: feature
+    scope: list
+    limit: 4
+    orderBy:
+        - key: priority
+          direction: asc
 
 dataTypes:
     date:
@@ -44,6 +51,7 @@ contentTypes:
     - category
     - guide
     - page
+    - feature
 
 iterators:
 

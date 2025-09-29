@@ -1,0 +1,30 @@
+id: feature
+paths:
+    - feature
+
+properties:
+    title:
+        type: string
+        required: true
+    text:
+        type: string
+        required: true
+    link:
+        type: string
+        required: true
+    priority:
+        type: int
+        required: true
+    image:
+        type: asset
+        required: false
+
+relations:
+
+queries:
+    feature:
+        contentType: feature
+        scope: list
+        orderBy:
+            - key: priority
+              direction: asc

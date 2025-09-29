@@ -4,11 +4,12 @@ language: 'en-US'
 
 navigation:
   - label: 'Docs'
-    url: '/docs/'
-  - label: 'About'
-    url: '/about/'
-  - label: 'Contact'
-    url: '/contact/'
+    url: '/'
+  - label: 'License'
+    url: '/license/'
+  - label: 'Github'
+    webUrl: 'https://github.com/toucansites/t-doc-template'
+    svg: "/images/github_icon.svg"
 
 footer-socials:
   - title: 'Instagram'
