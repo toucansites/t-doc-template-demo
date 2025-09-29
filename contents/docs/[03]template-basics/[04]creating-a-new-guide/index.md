@@ -3,23 +3,20 @@ type: guide
 title: 'Creating a new guide'
 description: 'This guide will walk you through how to add a new guide.'
 category: template-basics
-order: 3
+order: 4
 ---
 
-# Creating a New Guide
+# Creating a new guide
 
 Adding a new guide is essential to keeping your site updated with fresh content. Follow these steps to create and publish a new guide in **T-Doc Template**.
 
-
-## Step 1: Navigate to the Proper Category Directory
+## Navigate to the proper category directory
 
 Open your project directory.
 Select the category for your guide, and go to the **contents/docs/my-category** folder. This folder contains all guides under the same category.
 
 
-## Step 2: Create a New Guide Directory
-
-Create a new directory for your guide:
+## Create a new guide directory
 
 Name the folder based on the guide title or a short identifier. For example:
 
@@ -29,7 +26,7 @@ Name the folder based on the guide title or a short identifier. For example:
 
 Use lowercase letters and hyphens to maintain consistency in folder naming.
 
-## Step 3: Add an `index.md` File
+## Add an `index.md` file
 
 Inside the new directory (e.g., `contents/docs/my-category/my-first-guide`), create a file named `index.md`.
 This file contains the metadata and content for the guide.
@@ -56,9 +53,7 @@ Add the following content to the `index.md` file:
    - **description**: A brief description or summary of the guide.
    - **order**: Specifies the guide's display order within the category, with lower numbers appearing first.
 
----
-
-## Step 4: Write the Guide Content
+## Write the guide content
 
 Below the metadata in `index.md`, write the full content of your guide using Markdown. Example:
 
@@ -69,7 +64,7 @@ Below the metadata in `index.md`, write the full content of your guide using Mar
    slug: my-category/my-first-guide
    title: "My First Guide"
    description: "This is an introduction to my first guide."
-   order: 3
+   order: 4
    ---
 
    ## Welcome to My First Guide
@@ -82,8 +77,7 @@ Below the metadata in `index.md`, write the full content of your guide using Mar
    - Item 3
    ```
 
-
-## Step 5: Add Images (Optional)
+## Add Images (Optional)
 
 If your guide includes images, create an **assets** folder inside the guide directory:
 
@@ -96,8 +90,6 @@ Place your images in the **assets** folder and reference them in your Markdown c
    ```md
    ![My Image](./assets/my-image.jpg)
    ```
-
----
 
 [Regenerate the site automatically](/docs/getting-started/03-how-to-use#regenerate-the-site) and refresh your browser
 Check that the new guide appears under the correct category.

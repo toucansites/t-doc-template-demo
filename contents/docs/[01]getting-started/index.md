@@ -1,11 +1,11 @@
 ---
 type: category
-title: 'Getting Started'
+title: 'Getting started'
 description: ''
 order: 1
 ---
 
-# Getting Started
+# Getting started
 
 ---
 

@@ -3,16 +3,14 @@ type: guide
 title: 'Creating a custom page'
 description: 'This guide will walk you through how to create a custom page and add it to the navigation menu'
 category: template-basics
-order: 4
+order: 5
 ---
 
-# Creating a Custom Page in Navigation
+# Creating a custom page in navigation
 
 Adding a custom page is a great way to enhance your site’s functionality by including pages like ‘Contact Us,’ ‘FAQ,’ or other static content. Follow the steps below to create a custom page and add it to the navigation menu in **T-Doc Template**.
 
----
-
-### Step 1: Edit the Navigation Menu
+### Edit the navigation menu
 
 Open the **site.yaml** file in your project directory.
 
@@ -46,7 +44,7 @@ Create a new directory for your custom page. For example:
 mkdir contents/faq
 ```
 
-### Step 3: Add an `index.md` File
+### Add an `index.md` file
 
 Inside the new directory (e.g., `contents/faq`), create a file named `index.md`.
 This file contains the metadata and content for the custom page.
@@ -69,7 +67,7 @@ views:
 - **template**: The Mustache template used to render the page.
 
 
-### Step 4: Add Content to the Page
+### Add Content to the Page
 
 Below the metadata in `index.md`, write the content of your custom page using Markdown. Example:
 
@@ -83,7 +81,7 @@ If you forgot your password, you can reset it by clicking the "Forgot Password" 
 You can reach our support team at [support@example.com](mailto:support@example.com).
 ```
 
-### Step 5: Create a New Template (Optional)
+### Create a New Template (Optional)
 
 If the default view `pages.default_page` does not fit your needs, create a custom Mustache file:
 Navigate to **templates/default/views/pages/**.

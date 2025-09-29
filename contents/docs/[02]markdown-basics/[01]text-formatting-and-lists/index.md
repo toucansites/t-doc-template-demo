@@ -6,16 +6,14 @@ category: markdown-basics
 order: 1
 ---
 
-# Text Formatting and Lists
+# Text formatting and lists
 
 Markdown is a lightweight markup language for formatting plain text. It makes content creation easy and clean. 
 Here’s how to use its essential syntax.
 
----
 
-## Text Formatting
+## Text formatting
 
----
 
 ### Headings
 
@@ -35,9 +33,8 @@ Don't use more than one H1 per page.
 
 > Toucan turns headings into anchors for linking.
 
----
 
-### Bold and Italics
+### Bold and italics
 
 Highlight text by making it italic or bold:
 
@@ -49,7 +46,6 @@ Bold and Italic: ***text*** or ___text___
 
 Be careful mixing with backticks (`) because backticks show inline code — formatting inside backticks will not work. 
 
----
 
 ### Blockquotes
 
@@ -64,11 +60,9 @@ Use it to highlight notes, tips, warnings, or quoted text.
 Blockquotes can include bold, italics, inline code, lists, or even images.
 
 
----
-
 ## Lists
 
-### Unordered Lists
+### Unordered lists
 
 Use `-` or `*` to create unordered lists:
 
@@ -78,9 +72,7 @@ Use `-` or `*` to create unordered lists:
   - Subitem 2.1
 ```
 
----
-
-### Ordered Lists
+### Ordered lists
 
 Use numbers followed by a period to create ordered lists:
 
@@ -95,8 +87,6 @@ Indent them with spaces for nested listing.
  
 Also, Markdown will autocorrect if you made a mistake in numbering. 
 
----
-
 ### Nesting
 
 You can nest ordered and unordered lists together:
@@ -106,8 +96,6 @@ You can nest ordered and unordered lists together:
    - Subitem 1
    2. Ordered subitem
 ```
-
----
 
 ## Conclusion
 

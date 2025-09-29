@@ -10,7 +10,6 @@ order: 2
 
 Markdown provides a simple syntax for adding links, images, and tables to your documents.
 
----
 
 ## Links
 
@@ -22,8 +21,6 @@ Use square brackets `[ ]` for the link text and parentheses `( )` to enclose the
 [Link Text](https://example.com)
 ```
 
----
-
 ### Links with Titles (Hover Text)
 
 Add a title by including text in quotes after the URL:
@@ -33,8 +30,6 @@ Add a title by including text in quotes after the URL:
 ```
 
 Hovering will show "Optional Title". 
-
----
 
 ### Links with Anchors
 
@@ -59,12 +54,11 @@ Similar to links, but with an exclamation mark `!` at the beginning:
 ```
 
 The image URL can be relative or absolute:
-	•	docs/setup.md → relative path inside your repo
-	•	https://example.com/docs → absolute external link.
 
-  
-
----
+```
+![Setup illustration](docs/setup.png)   <!-- relative path to an image in your repo -->
+![Docs preview](https://example.com/docs/cover.png)   <!-- absolute external image -->
+```
 
 ### Images with Titles
 
@@ -74,7 +68,6 @@ Add a title in quotes for extra context:
 ![Alt Text](https://example.com/image.jpg "Optional Title")
 ```
 
----
 
 ### Tables
 
@@ -86,8 +79,6 @@ Use pipes `|` and dashes `-` to create tables:
 | **Bold** | Bold text   |
 | _Italic_ | Italic text |
 ```
-
----
 
 ### Code Blocks
 
@@ -111,14 +102,12 @@ function example() {
 }
 ```
 
----
 
 ### Troubleshooting
 
 - Keep case sensitivity in mind to avoid mistakes. 
-- Avoid spaces and use hyphens(-) and dashes(_) instead.
-- Stick to lowercase filenames for your assets.
+- File naming conventions: Avoid spaces and use hyphens(-) and dashes(_) instead and stick to lowercase.
 
-### Wrapping Up
+### Wrapping up
 
 Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!
