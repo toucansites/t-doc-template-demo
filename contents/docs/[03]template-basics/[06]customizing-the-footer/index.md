@@ -3,7 +3,7 @@ type: guide
 title: 'Customizing the footer'
 description: 'This guide will walk you through customizing the footer.'
 category: template-basics
-order: 
+order: 6
 ---
 
 # Customizing the Footer

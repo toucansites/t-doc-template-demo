@@ -18,6 +18,8 @@ Select the category for your guide, and go to the **contents/docs/my-category** 
 
 ## Create a new guide directory
 
+> Note The quickest way to create new content —whether it's a new guide or a new page— is to duplicate an existing one and update its details.
+
 Name the folder based on the guide title or a short identifier. For example:
 
      ```sh
