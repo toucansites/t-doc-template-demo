@@ -10,4 +10,4 @@ order: 4
 ---
 
 In this chapter, we will learn how to deploy our site to a live server.  
-We will focus on deploying our site to **Github Pages**.
+We will deploy our site to **Github Pages**.
