@@ -1,5 +1,5 @@
 ---
-type: feature
+type: hero-card
 title: Deplyoment
 text: Get to know how you can customize this template.
 link: /deployment

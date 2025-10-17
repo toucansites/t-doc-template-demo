@@ -1,0 +1,15 @@
+name: InfoBox
+removesChildParagraph: true
+tag: div
+attributes:
+  - name: class
+    value: "info-box-wrapper"
+output: |
+  <div class="info-box">
+    <svg class="info-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+      <use href="/images/info.svg" />
+    </svg>
+    <div class="info-box__body">
+      {{contents}}
+    </div>
+  </div>

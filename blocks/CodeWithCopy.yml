@@ -1,0 +1,37 @@
+name: CodeWithCopy
+removesChildParagraph: true
+output: |
+  <div class="code-block">
+    <button
+      class="copy-btn"
+      type="button"
+      aria-label="Copy code"
+      title="Copy"
+      onclick="copyCode(this)"
+    >
+      <svg 
+        class="icon icon-clipboard"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        aria-hidden="true"
+      >
+          <use href="/images/copy_icon.svg" />
+      </svg>
+      <svg
+        class="icon icon-check"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        aria-hidden="true"
+      >
+        <path
+          d="M20.285 6.708a1 1 0 0 1 .007 1.414l-9.192
+             9.284a1 1 0 0 1-1.42.01L3.7 11.7a1 1 0 1 1
+             1.414-1.414l5.05 5.05 8.485-8.556a1 1 0 0 1
+             1.636-.072z"
+        />
+      </svg>
+    </button>
+    {{contents}}
+  </div>

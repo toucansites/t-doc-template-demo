@@ -17,3 +17,26 @@ relations:
     order:
       key: title
       direction: asc
+
+queries:
+    prev:
+        contentType: guide
+        limit: 1
+        filter:
+            key: order
+            operator: lessThan
+            value: "{{order}}"
+        orderBy: 
+            - key: order
+              direction: desc
+
+    next:
+        contentType: guide
+        limit: 1
+        filter:
+            key: order
+            operator: greaterThan
+            value: "{{order}}"
+        orderBy: 
+            - key: order
+              direction: asc

@@ -8,14 +8,14 @@ order: 4
 
 # Help and contribution
 
-## Help 
+## Help
 
 If you have any questions or need further assistance, feel free to:
 
 - [Contact](/contact) us directly.
 - Check the [Toucan documentation](https://toucansites.com/docs/) for detailed developer guidance.
 
-If you've found a bug, create an issue on [GitHub](https://github.com/toucansites/toucan) so that we can resolve it with the next update. 
+If you've found a bug, create an issue on [GitHub](https://github.com/toucansites/toucan) so that we can resolve it with the next update.
 
 ## Contribution
 
@@ -38,9 +38,8 @@ We regularly review submissions and highlight the best ones.
 While Toucan’s main purpose is building awesome websites, some of its capabilities allow you to go beyond that.
 Have a unique way you’re using Toucan? We’d love to hear about it!
 
-## Give a star on GitHub 🙏
+## Give a star on GitHub
 
 I'm sure you know how much ratings on GitHub mean. Giving us a star helps the project grow, and we appreciate your support if you like Toucan and the T-Doc template. Thank you!
 
 [Toucan on GitHub](https://github.com/toucansites/toucan)
-

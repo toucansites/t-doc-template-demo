@@ -1,5 +1,5 @@
 ---
-type: feature
+type: hero-card
 title: Markdown basics
 text: Learn how to use this template and see how simple it is.
 link: /markdown-basics

@@ -3,7 +3,7 @@ type: guide
 title: 'Links, images and tables'
 description: 'This guide covers how to use links, images, and tables in Markdown.'
 category: markdown-basics
-order: 2
+order: 6
 ---
 
 # Links, Images, and Tables
@@ -17,31 +17,43 @@ Markdown provides a simple syntax for adding links, images, and tables to your d
 
 Use square brackets `[ ]` for the link text and parentheses `( )` to enclose the URL:
 
-```
-[Link Text](https://example.com)
-```
+@CodeWithCopy {
+
+	```md
+	[Link Text](https://example.com)
+	```
+
+}
 
 ### Links with Titles (Hover Text)
 
 Add a title by including text in quotes after the URL:
 
-```
-[Link Text](https://example.com "Optional Title")
-```
+@CodeWithCopy {
 
-Hovering will show "Optional Title". 
+	```md
+	[Link Text](https://example.com "Optional Title")
+	```
+
+}
+
+Hovering will show "Optional Title".
 
 ### Links with Anchors
 
 Toucan automatically generates HTML IDs (anchors) for headings.
-	•	Headings become lowercase, words are separated by hyphens.
-	•	Special characters are usually stripped.
+ • Headings become lowercase, words are separated by hyphens.
+ • Special characters are usually stripped.
 
 You can use it by writing a hashtag (#) and attach the generated ID afterwards:
 
-```
-[Link Text](/docs/template-basics/change-the-site-logo/#option-2-modify-the-template-instead)
-```
+@CodeWithCopy {
+
+	```md
+	[Link Text](/docs/template-basics/change-the-site-logo/#option-2-modify-the-template-instead)
+	```
+
+}
 
 ## Images
 
@@ -49,36 +61,51 @@ You can use it by writing a hashtag (#) and attach the generated ID afterwards:
 
 Similar to links, but with an exclamation mark `!` at the beginning:
 
-```
-![Alt Text](https://example.com/image.jpg)
-```
+@CodeWithCopy {
+
+	```md
+	![Alt Text](https://example.com/image.jpg)
+	```
+
+}
 
 The image URL can be relative or absolute:
 
-```
-![Setup illustration](docs/setup.png)   <!-- relative path to an image in your repo -->
-![Docs preview](https://example.com/docs/cover.png)   <!-- absolute external image -->
-```
+@CodeWithCopy {
+
+	```md
+	![Setup illustration](docs/setup.png)   <!-- relative path to an image in your repo -->
+	![Docs preview](https://example.com/docs/cover.png)   <!-- absolute external image -->
+	```
+
+}
 
 ### Images with Titles
 
 Add a title in quotes for extra context:
 
-```
-![Alt Text](https://example.com/image.jpg "Optional Title")
-```
+@CodeWithCopy {
 
+	```md
+	![Alt Text](https://example.com/image.jpg "Optional Title")
+	```
+
+}
 
 ### Tables
 
 Use pipes `|` and dashes `-` to create tables:
 
-```
-| Syntax   | Description |
-| -------- | ----------- |
-| **Bold** | Bold text   |
-| _Italic_ | Italic text |
-```
+@CodeWithCopy {
+
+	```md
+	| Syntax   | Description |
+	| -------- | ----------- |
+	| **Bold** | Bold text   |
+	| _Italic_ | Italic text |
+	```
+
+}
 
 ### Code Blocks
 
@@ -86,22 +113,27 @@ Use pipes `|` and dashes `-` to create tables:
 
 Wrap code in backticks:
 
-```
-`inline code`
-```
+@CodeWithCopy {
 
----
+	```md
+	`inline code`
+	```
+
+}
 
 ## Multi-line Codes
 
 Use triple backticks (\`\`\`) to format multi-line code blocks:
 
-```
-function example() {
-  console.log("Hello, Markdown!");
-}
-```
+@CodeWithCopy {
 
+	```js
+	function example() {
+	console.log("Hello, Markdown!");
+	}
+	```
+
+}
 
 ### Troubleshooting
 

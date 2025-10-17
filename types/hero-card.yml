@@ -1,6 +1,6 @@
-id: feature
+id: hero-card
 paths:
-    - feature
+    - hero-card
 
 properties:
     title:
@@ -17,14 +17,4 @@ properties:
         required: true
     image:
         type: asset
-        required: false
-
-relations:
-
-queries:
-    feature:
-        contentType: feature
-        scope: list
-        orderBy:
-            - key: priority
-              direction: asc
+        required: true

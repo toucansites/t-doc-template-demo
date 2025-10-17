@@ -30,8 +30,8 @@ queries:
     orderBy:
       - key: order
         direction: asc
-  features:
-    contentType: feature
+  hero-cards:
+    contentType: hero-card
     scope: list
     limit: 4
     orderBy:
@@ -51,7 +51,7 @@ contentTypes:
     - category
     - guide
     - page
-    - feature
+    - hero-card
 
 iterators:
 

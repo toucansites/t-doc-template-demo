@@ -3,7 +3,7 @@ type: guide
 title: 'Creating a new guide'
 description: 'This guide will walk you through how to add a new guide.'
 category: template-basics
-order: 4
+order: 11
 ---
 
 # Creating a new guide
@@ -15,16 +15,23 @@ Adding a new guide is essential to keeping your site updated with fresh content.
 Open your project directory.
 Select the category for your guide, and go to the **contents/docs/my-category** folder. This folder contains all guides under the same category.
 
-
 ## Create a new guide directory
 
-> Note The quickest way to create new content —whether it's a new guide or a new page— is to duplicate an existing one and update its details.
+@InfoBox {
+  @InfoBoxTitle { Note }
+  @InfoBoxContent {
+    The quickest way to create new content —whether it's a new guide or a new page— is to duplicate an existing one and update its details.
+  }
+}
 
 Name the folder based on the guide title or a short identifier. For example:
+@CodeWithCopy {
 
      ```sh
      mkdir contents/docs/my-category/my-first-guide
      ```
+
+}
 
 Use lowercase letters and hyphens to maintain consistency in folder naming.
 
@@ -35,7 +42,9 @@ This file contains the metadata and content for the guide.
 
 Add the following content to the `index.md` file:
 
-   ```text
+@CodeWithCopy {
+
+   ```md
    ---
    type: guide
    category: my-category
@@ -46,18 +55,22 @@ Add the following content to the `index.md` file:
    ---
    ```
 
-   **Fields Explanation**:
+}
 
-   - **type**: Always set to `guide`.
-   - **category**: Defines the category under which this guide is grouped.
-   - **slug**: A unique, URL-friendly identifier for the guide. It determines the guide’s URL path and should use lowercase letters and hyphens.
-   - **title**: The title of the guide as it will appear on the site.
-   - **description**: A brief description or summary of the guide.
-   - **order**: Specifies the guide's display order within the category, with lower numbers appearing first.
+**Fields Explanation**:
+
+- **type**: Always set to `guide`.
+- **category**: Defines the category under which this guide is grouped.
+- **slug**: A unique, URL-friendly identifier for the guide. It determines the guide’s URL path and should use lowercase letters and hyphens.
+- **title**: The title of the guide as it will appear on the site.
+- **description**: A brief description or summary of the guide.
+- **order**: Specifies the guide's display order within the category, with lower numbers appearing first.
 
 ## Write the guide content
 
 Below the metadata in `index.md`, write the full content of your guide using Markdown. Example:
+
+@CodeWithCopy {
 
    ```text
    ---
@@ -68,6 +81,8 @@ Below the metadata in `index.md`, write the full content of your guide using Mar
    description: "This is an introduction to my first guide."
    order: 4
    ---
+
+}
 
    ## Welcome to My First Guide
 
@@ -83,21 +98,22 @@ Below the metadata in `index.md`, write the full content of your guide using Mar
 
 If your guide includes images, create an **assets** folder inside the guide directory:
 
+@CodeWithCopy {
+
    ```sh
    mkdir contents/docs/my-category/my-first-guide/assets
    ```
 
+}
+
 Place your images in the **assets** folder and reference them in your Markdown content. Example:
+@CodeWithCopy {
 
    ```md
    ![My Image](./assets/my-image.jpg)
    ```
 
-[Regenerate the site automatically](/docs/getting-started/03-how-to-use#regenerate-the-site) and refresh your browser
+}
+
+[Regenerate the site automatically](/getting-started/03-how-to-use#how-to-regenerate-the-site) and refresh your browser
 Check that the new guide appears under the correct category.
-
-
-
-
-
-

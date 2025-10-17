@@ -1,5 +1,5 @@
 ---
-type: feature
+type: hero-card
 title: Getting started
 text: Learn how to use this template and see how simple it is.
 link: /getting-started

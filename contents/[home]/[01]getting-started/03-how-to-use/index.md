@@ -21,22 +21,29 @@ The documentation is organized into optional, standalone guides, so you can eith
 
 ## How to regenerate the site
 
-Toucan has a built-in `watch` command that makes the generation process easy. It keeps an eye on changes in the source directory and automatically rebuilds your site whenever you make edits. 
+Toucan has a built-in `watch` command that makes the generation process easy. It keeps an eye on changes in the source directory and automatically rebuilds your site whenever you make edits.
 
-Run this command in a terminal window: 
+Run this command in a terminal window:
+
+@CodeWithCopy {
 
    ```sh
    toucan watch
    ```
 
+}
+
 In a separate terminal window, run this command:
+
+@CodeWithCopy {
 
    ```sh
    toucan serve
    ```
 
-The `toucan serve` command starts the local development server. 
+}
 
+The `toucan serve` command starts the local development server.
 
 When making changes, make sure you have `toucan watch` and `toucan serve` commands running in two separate terminal windows for easy and automatic regeneration.
 
