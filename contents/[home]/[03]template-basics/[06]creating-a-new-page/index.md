@@ -39,7 +39,7 @@ navigation:
 - **label**: The text displayed in the navigation menu.
 - **url**: The relative URL of the custom page.
 
-### Step 2: Create the Custom Page Directory
+### Create the Custom Page Directory
 
 Navigate to the **contents/** folder.
 Create a new directory for your custom page. For example:

@@ -29,6 +29,7 @@ Use `#` for headings. The number of `#` symbols determines the level:
 
 }
 
+
 Headings create structure, not only style. Nest them logically and keep them concise. 
 
 Don't use more than one H1 per page.

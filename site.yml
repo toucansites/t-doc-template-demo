@@ -25,9 +25,9 @@ footer-socials:
     iconLocal: '/images/bluesky_icon.svg'
     url: 'https://bsky.app/'
 
-  - title: 'Discord'
-    iconLocal: '/images/discord_icon.svg'
-    url: 'https://discord.com/'
+  #- title: 'Discord'
+  #  iconLocal: '/images/discord_icon.svg'
+  #  url: 'https://discord.com/'
 
   - title: 'Mastadon'
     iconLocal: '/images/mastodon_icon.svg'

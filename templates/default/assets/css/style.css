@@ -715,7 +715,8 @@ article [id] {
   white-space: pre-wrap;
   word-break: break-word;
   overflow-wrap: anywhere;
-  font-family: 'Montserrat', monospace;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
   text-shadow: none;
   box-sizing: border-box;
 }
