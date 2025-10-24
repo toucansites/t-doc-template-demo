@@ -242,6 +242,18 @@ a.cta:hover {
 #tag header img {
   margin-bottom: 8px;
 }
+
+article {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* or set a fixed height if needed */
+  position: relative;
+}
+
+article section:last-child {
+  margin-top: auto; /* ✅ pushes this section to the bottom */
+}
+
 article footer {
   margin-bottom: 64px;
 }
@@ -741,7 +753,6 @@ article [id] {
   display: block;
   width: 20px;
   height: 20px;
-  vertical-align: middle;
 }
 
 .copy-btn .icon-clipboard {
@@ -779,7 +790,7 @@ article [id] {
   flex: 0 0 auto;
   width: 20px;
   height: 20px;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .info-box__body {
@@ -795,7 +806,6 @@ article [id] {
   margin: 0;
   padding: 0;
   font-family: 'Lato';
-  font-style: Bold;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -809,6 +819,9 @@ article [id] {
 
 .info-box__title {
   font-weight: 700;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
 }
 
 .nav-link {

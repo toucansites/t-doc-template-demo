@@ -146,7 +146,7 @@ li code a {
   border-bottom: 1px dotted var(--text-color);
 }
 section {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 img.small {
   width: 32px;
