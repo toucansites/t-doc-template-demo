@@ -21,9 +21,13 @@ In this guide, you’ll learn:
 
 All hero cards are located in the following directory:
 
+@CodeWithCopy {
+
 ```bash
 contents/hero-card/
 ```
+
+}
 
 Each hero card has its **own folder** inside this directory.  
 Inside that folder, you’ll find:
@@ -32,6 +36,8 @@ Inside that folder, you’ll find:
 - An `assets/` folder — contains the image used by the card.
 
 **Example structure:**
+
+@CodeWithCopy {
 
 ```bash
 contents/
@@ -47,9 +53,13 @@ contents/
       └── ...
 ```
 
+}
+
 ## The hero card definition
 
 All hero cards follow the same type definition, located in the `hero-card` type file:
+
+@CodeWithCopy {
 
 ```yaml
 id: hero-card
@@ -74,6 +84,8 @@ properties:
     required: true
 ```
 
+}
+
 All fields are **required**.  
 Each hero card must define a **title**, **text**, **link**, **priority**, and **image**.
 
@@ -81,11 +93,17 @@ Each hero card must define a **title**, **text**, **link**, **priority**, and **
 
 Open the folder of the card you want to change, for example:
 
+@CodeWithCopy {
+
 ```bash
 contents/hero-card/deployment/
 ```
 
+}
+
 Inside, open the `index.md` file. You’ll see something like:
+
+@CodeWithCopy {
 
 ```yaml
 ---
@@ -97,6 +115,8 @@ priority: 2
 image: ./assets/hero_card_bottom_right.png
 ---
 ```
+
+}
 
 Update any of the fields as needed.
 
@@ -121,11 +141,17 @@ Ensure that the changes are displayed on the homepage.
 
 To add a **new hero card** (for example, *New Hero Card*), create a new folder inside `contents/hero-card/`:
 
+@CodeWithCopy {
+
 ```bash
 contents/hero-card/new-hero-card/
 ```
 
+}
+
 Inside that folder, create a file named `index.md` and add the following content:
+
+@CodeWithCopy {
 
 ```yaml
 ---
@@ -138,11 +164,17 @@ image: ./assets/hero_card_example.png
 ---
 ```
 
+}
+
 Create an `assets/` folder inside your new hero card directory and add the image file:
+
+@CodeWithCopy {
 
 ```bash
 contents/hero-card/new-hero-card/assets/hero_card_example.png
 ```
+
+}
 
 The `image` field in the Markdown file must point to this image.  
 Every hero card must include **all required fields** listed above.
