@@ -18,3 +18,6 @@ properties:
     image:
         type: asset
         required: true
+    imageDark:
+        type: asset
+        required: false
