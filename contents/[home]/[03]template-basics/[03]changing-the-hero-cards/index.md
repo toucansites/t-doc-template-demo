@@ -33,7 +33,7 @@ Each hero card has its **own folder** inside this directory.
 Inside that folder, you’ll find:
 
 - An `index.md` file — defines the card’s content and settings.
-- An `assets/` folder — contains the image used by the card.
+- An `assets/` folder — contains the image(s) used by the card.
 
 **Example structure:**
 
@@ -45,11 +45,13 @@ contents/
       ├── deployment/
       │   ├── index.md
       │   └── assets/
-      │       └── hero_card_bottom_right.png
+      │       ├── hero_card_bottom_right.png
+      │       └── hero_card_bottom_right_dark.png
       ├── getting-started/
       │   ├── index.md
       │   └── assets/
-      │       └── hero_card_top_left.png
+      │       ├── hero_card_top_left.png
+      │       └── hero_card_top_left_dark.png
       └── ...
 ```
 
@@ -82,12 +84,17 @@ properties:
   image:
     type: asset
     required: true
+  imageDark:
+    type: asset
+    required: false
 ```
 
 }
 
-All fields are **required**.  
-Each hero card must define a **title**, **text**, **link**, **priority**, and **image**.
+All fields except **`imageDark`** are **required**.  
+The `imageDark` field is optional and allows specifying a separate image for dark mode.
+
+---
 
 ## Editing an existing hero card
 
@@ -113,6 +120,7 @@ text: Get to know how you can customize this template.
 link: /deployment
 priority: 2
 image: ./assets/hero_card_bottom_right.png
+imageDark: ./assets/hero_card_bottom_right_dark.png
 ---
 ```
 
@@ -127,15 +135,18 @@ Update any of the fields as needed.
 - **text**: Short descriptive text shown under the title.  
 - **link**: The URL the card directs to when clicked.  
 - **priority**: Determines the display order — lower numbers appear first.  
-- **image**: The relative path to the card’s image file.  
+- **image**: The default (light mode) image file path.  
+- **imageDark** *(optional)*: Alternate image displayed in dark mode.  
 
-All of the above fields are **required** for each hero card to be valid.
+All required fields must be present for a card to be valid.  
+If you use dark mode, add an `imageDark` field referencing your dark-mode asset.
 
-If you want to change the image, replace the existing file in the `assets` folder or upload a new one.  
-Make sure the file path in the `image:` field matches the actual filename.
+When changing images, ensure the file paths match actual filenames in your `assets/` folder.
 
 [Regenerate the site automatically](/getting-started/03-how-to-use#how-to-regenerate-the-site) and refresh your browser.  
 Ensure that the changes are displayed on the homepage.
+
+---
 
 ## Creating a new hero card
 
@@ -161,23 +172,25 @@ text: This is a brand new hero card added to the homepage.
 link: /new-hero-card
 priority: 5
 image: ./assets/hero_card_example.png
+imageDark: ./assets/hero_card_example_dark.png
 ---
 ```
 
 }
 
-Create an `assets/` folder inside your new hero card directory and add the image file:
+Create an `assets/` folder inside your new hero card directory and add both image files:
 
 @CodeWithCopy {
 
 ```bash
 contents/hero-card/new-hero-card/assets/hero_card_example.png
+contents/hero-card/new-hero-card/assets/hero_card_example_dark.png
 ```
 
 }
 
-The `image` field in the Markdown file must point to this image.  
-Every hero card must include **all required fields** listed above.
+The `imageDark` field is optional but recommended if your site uses dark mode.  
+Make sure the paths in your Markdown file point to the correct image files.
 
 [Regenerate the site automatically](/getting-started/03-how-to-use#how-to-regenerate-the-site) and refresh your browser.  
-Ensure that the new hero card appears on the homepage.
+Ensure that the new hero card appears correctly in both light and dark mode.
