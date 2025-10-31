@@ -10,7 +10,6 @@ order: 6
 
 Markdown provides a simple syntax for adding links, images, and tables to your documents.
 
-
 ## Links
 
 ### Basic Links
@@ -92,7 +91,7 @@ Add a title in quotes for extra context:
 
 }
 
-### Tables
+## Tables
 
 Use pipes `|` and dashes `-` to create tables:
 
@@ -107,9 +106,9 @@ Use pipes `|` and dashes `-` to create tables:
 
 }
 
-### Code Blocks
+## Code Blocks
 
-## Inline Codes
+### Inline Codes
 
 Wrap code in backticks:
 
@@ -121,7 +120,7 @@ Wrap code in backticks:
 
 }
 
-## Multi-line Codes
+### Multi-line Codes
 
 Use triple backticks (\`\`\`) to format multi-line code blocks:
 
@@ -135,11 +134,11 @@ Use triple backticks (\`\`\`) to format multi-line code blocks:
 
 }
 
-### Troubleshooting
+## Troubleshooting
 
 - Keep case sensitivity in mind to avoid mistakes. 
 - File naming conventions: Avoid spaces and use hyphens(-) and dashes(_) instead and stick to lowercase.
 
-### Wrapping up
+## Wrapping up
 
 Markdown provides a simple way to include links, images, tables, and code in your content. Master these features to create well-structured and visually appealing documents!
