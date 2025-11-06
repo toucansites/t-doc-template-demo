@@ -1,5 +1,6 @@
 targets:
-    - name: dev 
+    - name: dev
+      url: "https://management-artists-cherry-eva.trycloudflare.com/"
       default: true
     
     - name: live

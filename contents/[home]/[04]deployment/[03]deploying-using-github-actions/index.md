@@ -87,7 +87,7 @@ Enter a name pattern such as:
 Click **Add rule** to confirm the configuration.
 
 @InfoBox {
-  @InfoBoxTitle { Warn }
+  @InfoBoxTitle { Info }
   @InfoBoxContent {
     If the environment is not properly configured, deployments will be blocked with an error such as: Tag `1.0.0-beta.2` is not allowed to deploy to github-pages due to environment protection rules.
   }
