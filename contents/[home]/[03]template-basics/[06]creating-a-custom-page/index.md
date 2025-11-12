@@ -115,3 +115,11 @@ views:
 
 [Regenerate the site automatically](/getting-started/03-how-to-use#how-to-regenerate-the-site) and refresh your browser
 Ensure that the custom page is displayed correctly and can be accessed from the navigation menu.
+
+
+## Customize 404 page
+
+- **To edit the 404 page**, update the content in:  
+  📂 `/contents/404/index.md`
+- **To customize the template itself**, modify:  
+  📂 `/templates/default/views/pages/404.mustache`
