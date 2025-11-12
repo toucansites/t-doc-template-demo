@@ -462,6 +462,9 @@
 .menu-list summary {
     margin-bottom: 0.563rem;
 }
+.menu-list summary a {
+  text-decoration: none;
+}
 .menu-list details > summary {
     list-style: none;
 }

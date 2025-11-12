@@ -28,8 +28,7 @@ example.com
 
 Toucan will automatically move this `CNAME` file to the `dist` folder when your site is generated.
 
-
-### DNS Configuration
+## DNS Configuration
 
 For Apex Domains (`example.com`), create the following **A records** in your DNS provider’s configuration:
 
@@ -56,7 +55,7 @@ owner.github.io
 
 Replace `owner` with your actual GitHub repository owner name.
 
-### Enforce HTTPS
+## Enforce HTTPS
 
 After DNS propagation is complete (which can take anywhere from a few minutes to 24 hours):
 
