@@ -1,6 +1,7 @@
 ---
 title: License
 description: License for the template.
+image: "/images/defaults/default.jpg"
 views:
     html: pages.license
 ---

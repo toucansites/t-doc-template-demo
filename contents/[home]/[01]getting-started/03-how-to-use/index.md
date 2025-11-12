@@ -4,6 +4,7 @@ title: 'How to use'
 description: 'Guidance on how to use the T-doc template docs and user paths.'
 category: getting-started
 order: 3
+image: "/images/defaults/default.jpg"
 ---
 
 # How to use

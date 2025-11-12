@@ -4,6 +4,7 @@ title: 'Creating a custom page'
 description: 'This guide will walk you through how to create a custom page and add it to the navigation menu'
 category: template-basics
 order: 12
+image: "/images/defaults/default.jpg"
 ---
 
 # Creating a custom page in navigation

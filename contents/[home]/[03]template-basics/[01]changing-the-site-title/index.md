@@ -4,6 +4,7 @@ title: 'Changing the site title'
 description: 'This guide will walk you through how to change the site title'
 category: template-basics
 order: 7
+image: "/images/defaults/default.jpg"
 ---
 
 # Changing the site title

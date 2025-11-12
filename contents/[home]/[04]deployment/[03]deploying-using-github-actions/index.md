@@ -4,6 +4,7 @@ title: 'Deploying using GitHub actions'
 description: 'Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site'
 category: deployment
 order: 16
+image: "/images/defaults/default.jpg"
 ---
 
 # Deploying using GitHub Actions 

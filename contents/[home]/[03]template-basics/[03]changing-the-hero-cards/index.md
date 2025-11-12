@@ -4,6 +4,7 @@ title: 'Changing the hero cards'
 description: 'This guide will walk you through how to change or create new hero cards in your template.'
 category: template-basics
 order: 9
+image: "/images/defaults/default.jpg"
 ---
 
 # Changing the hero cards

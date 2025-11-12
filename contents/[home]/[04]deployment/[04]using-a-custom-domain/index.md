@@ -4,6 +4,7 @@ title: 'Using a custom domain'
 description: 'Toucan-based websites can be hosted for free using GitHub Pages. Follow these steps to set up your site'
 category: deployment
 order: 17
+image: "/images/defaults/default.jpg"
 ---
 
 # Using a Custom Domain

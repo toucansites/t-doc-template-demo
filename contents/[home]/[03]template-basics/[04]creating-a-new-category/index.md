@@ -4,6 +4,7 @@ title: 'Creating a new category'
 description: 'This guide will walk you through how to add a new category'
 category: template-basics
 order: 10
+image: "/images/defaults/default.jpg"
 ---
 
 # Creating a new category

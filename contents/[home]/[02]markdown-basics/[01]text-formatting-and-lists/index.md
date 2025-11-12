@@ -4,6 +4,7 @@ title: 'Text formatting and lists'
 description: 'This guide covers the basics of Markdown text formatting and lists.'
 category: markdown-basics
 order: 5
+image: "/images/defaults/default.jpg"
 ---
 
 # Text formatting and lists

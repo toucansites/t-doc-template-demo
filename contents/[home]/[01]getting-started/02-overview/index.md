@@ -4,6 +4,7 @@ title: 'Overview'
 description: 'Overview of T-Doc template docs and its structure.'
 category: getting-started
 order: 2
+image: "/images/defaults/default.jpg"
 ---
 
 # Overview

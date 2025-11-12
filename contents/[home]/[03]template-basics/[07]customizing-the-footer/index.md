@@ -4,6 +4,7 @@ title: 'Customizing the footer'
 description: 'This guide will walk you through customizing the footer.'
 category: template-basics
 order: 13
+image: "/images/defaults/default.jpg"
 ---
 
 # Customizing the Footer

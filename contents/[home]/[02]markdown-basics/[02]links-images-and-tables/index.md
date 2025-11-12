@@ -4,6 +4,7 @@ title: 'Links, images and tables'
 description: 'This guide covers how to use links, images, and tables in Markdown.'
 category: markdown-basics
 order: 6
+image: "/images/defaults/default.jpg"
 ---
 
 # Links, Images, and Tables

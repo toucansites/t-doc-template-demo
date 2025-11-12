@@ -4,6 +4,7 @@ title: 'Prerequisites'
 description: 'Prerequisites of using the template and Toucan.'
 category: getting-started
 order: 1
+image: "/images/defaults/default.jpg"
 ---
 
 # Prerequisites

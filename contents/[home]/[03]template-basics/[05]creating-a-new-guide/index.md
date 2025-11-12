@@ -4,6 +4,7 @@ title: 'Creating a new guide'
 description: 'This guide will walk you through how to add a new guide.'
 category: template-basics
 order: 11
+image: "/images/defaults/default.jpg"
 ---
 
 # Creating a new guide

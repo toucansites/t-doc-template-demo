@@ -2,6 +2,7 @@
 type: page
 title: 'Home'
 description: 'This guide will help you use the Toucan SSG template'
+image: "/images/defaults/default.jpg"
 views:
     html: docs.home
 ---

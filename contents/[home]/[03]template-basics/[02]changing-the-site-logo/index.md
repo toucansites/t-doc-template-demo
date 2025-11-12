@@ -4,6 +4,7 @@ title: 'Changing the site logo'
 description: 'This guide will walk you through how to change the site logo'
 category: template-basics
 order: 8
+image: "/images/defaults/default.jpg"
 ---
 
 # Changing the site logo
