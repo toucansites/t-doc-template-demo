@@ -1,0 +1,6 @@
+name: InfoBoxTitle
+removesChildParagraph: true
+tag: div
+attributes:
+  - name: class
+    value: "info-box__title"

@@ -1,5 +1,5 @@
 targets:
-    - name: dev 
+    - name: dev
       default: true
     
     - name: live

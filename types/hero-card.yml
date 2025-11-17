@@ -1,0 +1,23 @@
+id: hero-card
+paths:
+    - hero-card
+
+properties:
+    title:
+        type: string
+        required: true
+    text:
+        type: string
+        required: true
+    link:
+        type: string
+        required: true
+    priority:
+        type: int
+        required: true
+    image:
+        type: asset
+        required: true
+    imageDark:
+        type: asset
+        required: false

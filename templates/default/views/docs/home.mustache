@@ -7,20 +7,13 @@
     <div class="center">
         <article>
             {{& page.contents.html}}
-
-            {{#empty(context.categories)}}
-            {{/empty(context.categories)}}
-            {{^empty(context.categories)}}
-            <h2>Chapters</h2>
-            <ul>
-            {{#context.categories}}
-                <li><a href="{{permalink}}">{{title}}</a></li>
-            {{/context.categories}}
-            </ul>
-            {{/empty(context.categories)}}
-
-
+            <div class="grid grid-221">
+                {{#context.hero-cards}}
+                    {{> partials.hero-card}}
+                {{/context.hero-cards}}
+            </div>
         </article>
+        <div class="extra-space"></div>
     </div>
     <div class="right">
         {{> partials.toc }}

@@ -1,0 +1,31 @@
+name: CodeWithCopy
+removesChildParagraph: true
+output: |
+  <div class="code-block">
+    <button
+      class="copy-btn"
+      type="button"
+      aria-label="Copy code"
+      title="Copy"
+      onclick="copyCode(this)"
+    >
+      <svg class="icon icon-clipboard" fill="none" height="20" viewBox="0 0 21 20" width="21">
+        <path d="m4.66699 12.4998h-.83333c-.44203 0-.86595-.1756-1.17851-.4881-.31256-.3126-.48816-.7365-.48816-1.1785v-7.50003c0-.44203.1756-.86595.48816-1.17851s.73648-.48816 1.17851-.48816h7.50004c.442 0 .8659.1756 1.1785.48816.3125.31256.4881.73648.4881 1.17851v.83333m-3.33331 3.33334h7.50001c.9205 0 1.6667.74619 1.6667 1.66666v7.5c0 .9205-.7462 1.6667-1.6667 1.6667h-7.50001c-.92047 0-1.66666-.7462-1.66666-1.6667v-7.5c0-.92047.74619-1.66666 1.66666-1.66666z" stroke="#e3e3e3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </svg>
+      <svg
+        class="icon icon-check"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        aria-hidden="true"
+      >
+        <path
+          d="M20.285 6.708a1 1 0 0 1 .007 1.414l-9.192
+             9.284a1 1 0 0 1-1.42.01L3.7 11.7a1 1 0 1 1
+             1.414-1.414l5.05 5.05 8.485-8.556a1 1 0 0 1
+             1.636-.072z"
+        />
+      </svg>
+    </button>
+    {{contents}}
+  </div>
